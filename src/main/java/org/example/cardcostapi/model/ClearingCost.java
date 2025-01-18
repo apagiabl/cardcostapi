@@ -20,4 +20,29 @@ public class ClearingCost {
 
     @Column(name = "cost", nullable = false)
     private Double cost;
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setCountryCode(String countryCode) {
+        this.countryCode = countryCode;
+    }
+
+    public String getCountryCode() {
+        return countryCode;
+    }
+
+    public void setCost(Double cost) {
+        this.cost = cost;
+    }
+
+    public Double getCost() {
+        return cost;
+    }
+
 }

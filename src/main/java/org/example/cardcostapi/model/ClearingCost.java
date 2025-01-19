@@ -21,6 +21,11 @@ public class ClearingCost {
     @Column(name = "cost", nullable = false)
     private Double cost;
 
+    public ClearingCost(String countryCode, Double cost) {
+        this.countryCode = countryCode;
+        this.cost = cost;
+    }
+
     public void setId(Long id) {
         this.id = id;
     }

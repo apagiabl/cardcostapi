@@ -46,8 +46,8 @@ proper credentials.
 
 These must be configured in application.properties file. Specifically, update accordingly:
 
-spring.datasource.username=<YOUR MYSQL USERNAME>
-spring.datasource.password=<YOUR MYSQL PASSWORD>
+- spring.datasource.username=</YOUR MYSQL USERNAME>
+- spring.datasource.password=</YOUR MYSQL PASSWORD>
 
 
 ## *Testing*

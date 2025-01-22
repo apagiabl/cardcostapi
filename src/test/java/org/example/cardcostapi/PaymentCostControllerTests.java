@@ -1,5 +1,6 @@
 package org.example.cardcostapi;
 
+import org.example.cardcostapi.model.ClearingCost;
 import org.example.cardcostapi.repository.ClearingCostRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,8 +25,7 @@ public class PaymentCostControllerTests {
 
     @BeforeEach
     void setup() {
-        //repository.save(new ClearingCost( "US", 5.0));
-        //repository.save(new ClearingCost( "Others", 10.0));
+        repository.save(new ClearingCost( "DK", 35.0));
     }
 
     @Test

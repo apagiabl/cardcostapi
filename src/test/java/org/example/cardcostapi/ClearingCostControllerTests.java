@@ -46,7 +46,7 @@ public class ClearingCostControllerTests {
 
         mockMvc.perform(get("/api/clearing-costs"))
                 .andExpect(status().isOk())
-                .andExpect(jsonPath("$[0].countryCode").value("US"))
-                .andExpect(jsonPath("$[0].cost").value(5.0));
+                .andExpect(jsonPath("$[0].countryCode").value("UK"))
+                .andExpect(jsonPath("$[0].cost").value(55.0));
     }
 }

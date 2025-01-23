@@ -15,14 +15,14 @@ the country iso2 code and the cost to be configured.
 These are saved in a MySQL database, cardcostapi, and the information is saved at clearing_cost_matrix table.
 
 
-## *Development Environment*
+## *Development Environment and Setup Installations*
 
-1. IDE Intellij
-2. JAVA version "17.0.12" 2024-07-16 LTS
+1. [IDE Intellij](https://www.jetbrains.com/idea/download/?section=windows)
+2. [JAVA version "17.0.12" 2024-07-16 LTS](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 3. Spring boot 3.4.1
-4. Gradle 8.12
-5. Git
-6. MySQL 8.0.40
+4. [Gradle 8.12](https://docs.gradle.org/8.12/release-notes.html)
+5. [Git](https://git-scm.com/downloads)
+6. [MySQL 8.0.40](https://dev.mysql.com/downloads/)
 
 
 ## Compile and run
@@ -67,6 +67,7 @@ behaviour of the two APIs.
 *Database*
 - The database table includes a limit in the country code column of two letters. That said the "Others" cost as this is 
 explained in the original description is not supported in the database currently.
+- Add Flyway migrations for each default database schema construction, additions and role back.
 
 *REST API costs*
 - The clearing costs repository can be enhanced to include the "Others" costs, in the function call to findByCountryCode which now returns an exception.

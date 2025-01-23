@@ -20,7 +20,7 @@ These are saved in a MySQL database, cardcostapi, and the information is saved a
 1. [IDE Intellij](https://www.jetbrains.com/idea/download/?section=windows)
 2. [JAVA version "17.0.12" 2024-07-16 LTS](https://www.oracle.com/java/technologies/javase/jdk17-archive-downloads.html)
 3. Spring boot 3.4.1
-4. [Gradle 8.12](https://docs.gradle.org/8.12/release-notes.html)
+4. [Gradle 8.12](https://gradle.org/install/)
 5. [Git](https://git-scm.com/downloads)
 6. [MySQL 8.0.40](https://dev.mysql.com/downloads/)
 

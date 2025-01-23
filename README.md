@@ -49,6 +49,7 @@ These must be configured in application.properties file. Specifically, update ac
 - spring.datasource.username=</YOUR MYSQL USERNAME>
 - spring.datasource.password=</YOUR MYSQL PASSWORD>
 
+Lastly, the two commands in the sql file need run in your MySQL Workbench.
 
 ## *Testing*
 
